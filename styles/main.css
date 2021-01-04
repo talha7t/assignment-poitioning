@@ -1,0 +1,101 @@
+/*----------------- GLOBAL STYLING ----------------------*/
+
+/* univresal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 50%;
+}
+
+.nav-list {
+  /* display: inline; */
+  border: 3px solid green;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-link {
+  /* display: none; */
+  margin-bottom: 50px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+#heading {
+  color: green;
+  text-align: center;
+}
+
+.parent {
+  text-align: center;
+}
+
+.main-section {
+  min-height: 90vh;
+  background: url("bg-logo.jpg");
+}
+
+.box1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.box2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+
+.box3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+}
+
+.relative {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  background-color: black;
+}
+
+.box4 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box5 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.box6 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+}
